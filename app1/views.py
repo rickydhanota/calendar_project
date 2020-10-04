@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views import generic
