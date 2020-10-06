@@ -43,7 +43,7 @@ def fucking_calendar(request, date = None):
         print(date)
         date = date.split("-")
         print("date on 45", date)
-        date = f"{date[0]}-{date[1]}-1"
+        date = f"{date[0]}-{date[1]}"
         d = get_date(date)
         print("in the if statement",d.year, d.month)
         m = date
